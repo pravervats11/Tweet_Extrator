@@ -16,10 +16,10 @@ def show_entry_fields():
 
 
 def get_tweets():
-    consumer_key = 'KMTO0VMZpunMaNaNV9158NEqA'
-    consumer_secret = '11bej9ai6iRppbeHzML8gkQNCgjyNeYonpdPdB1SY4ELUTbZmA'
-    access_token = '840134683845263360-esN8JRopICVy3fG5EXPxGbX8FaoXCCr'
-    access_token_secret = 'MNLFiHNAIJGJZMJMpdqo8gWiPBiFCusH5mbDYqmWS1OaQ'
+    consumer_key = 'your_consumer_key'
+    consumer_secret = 'your_consumer_secret'
+    access_token = 'your_access_token'
+    access_token_secret = 'your_access_token_secret'
 
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
