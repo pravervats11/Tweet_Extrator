@@ -31,7 +31,7 @@ def get_tweets():
     
     new_tweets = api.user_timeline(twitter_handle, count=200)
        
-    alcoholism = ["beer","alcohol","high","wasted","booz","Whiskey","vodka"]
+    alcoholism = ["Lexicon_of_Alcoholism_related_words"]
     
     final_tuple = []
     for tweet in new_tweets:
