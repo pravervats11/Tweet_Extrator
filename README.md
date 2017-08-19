@@ -9,8 +9,7 @@ Basic UI has also been build for this using Tkinter python library.
 
 File with all the relevant tweets looks like this :-  
 
-![ScreenShot](App_cover/Tweet_File.png)  
+![ScreenShot](App_cover/Tweet_File.png)    
 
-
-
+Now working on improving algorithm so that context can also be read for the tweets. 
 
